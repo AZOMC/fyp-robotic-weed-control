@@ -1,0 +1,15 @@
+{
+  "_readme": "Edit this file to recalibrate. 'calibration_points' need >=4 entries (used to compute the matrix). 'validation_points' are OPTIONAL extra markers, measured but NOT used in the fit, used only to check accuracy in mm. pixel = [x, y] read off calib_frame.jpg. real_world = [x, y] in mm, measured from the robot arm's origin, using the same sign convention the arm uses.",
+
+  "calibration_points": [
+    {"name": "A", "pixel": [600, 200],  "real_world": [0, 100]},
+    {"name": "B", "pixel": [380, 430], "real_world": [-110, 0]},
+    {"name": "C", "pixel": [670, 670], "real_world": [0, -120]},
+    {"name": "D", "pixel": [760, 400], "real_world": [60, 0]}
+  ],
+
+  "validation_points": [
+    {"name": "A", "pixel": [630, 400],  "real_world": [0, 0]},
+    {"name": "B", "pixel": [480, 320],  "real_world": [-60, 50]}
+  ]
+}

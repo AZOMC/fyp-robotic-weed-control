@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# datasets and training runs are far too large for git
+datasets/
+runs/
+*.mp4
+
+# calibration is per-robot; the committed matrix is an example only
+calibration_matrix_backup_*.npy
+calib_frame.jpg
+validate_frame.jpg
+camera_setup_test.jpg
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

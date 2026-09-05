@@ -1,0 +1,12 @@
+# Raspberry Pi runtime (pi/demo.py)
+flask>=3.0
+opencv-python-headless>=4.8
+numpy>=1.24
+pyserial>=3.5
+ultralytics>=8.3
+
+# Also needs, from apt rather than pip:
+#   sudo apt install -y bluez v4l-utils
+#
+# On the training machine, install a CUDA build of torch first:
+#   https://pytorch.org/get-started/locally/

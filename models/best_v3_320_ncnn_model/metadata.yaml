@@ -1,0 +1,21 @@
+description: YOLO26n weed/crop detector, NCNN export, 320px
+author: Ultralytics
+date: '2026-08-20T17:16:53.014600+08:00'
+version: 8.4.105
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: Crops
+  1: Weed
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false

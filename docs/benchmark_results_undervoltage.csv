@@ -1,0 +1,8 @@
+label,imgsz,avg_ms,min_ms,max_ms,fps
+v2_ncnn_320,320,180.27,108.13,186.89,5.55
+v2_ncnn_640,640,670.04,611.04,696.49,1.49
+v3_ncnn_320,320,171.57,93.87,178.48,5.83
+v3_onnx_320,320,213.61,116.34,226.09,4.68
+,,,,,
+   vcgencmd get_throttled had 0x50000 error so undervoltage has happened while testing ,,,,,
+0x50005 while live stream running,,,,,

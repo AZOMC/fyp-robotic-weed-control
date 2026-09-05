@@ -5,7 +5,7 @@ detector on a Raspberry Pi 4, which converts pixels to millimetres and
 commands a delta arm over Bluetooth to pluck the weed and drop it in a bin.
 
 The whole thing runs on commodity hardware — a Pi 4, an Arduino Mega, and
-about **RM 1,100 (~USD 250)** of parts.
+less than **RM 2000 (~USD 500)** of total parts.
 
 ![The robot](assets/robot.png)
 

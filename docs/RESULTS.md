@@ -20,7 +20,7 @@ came close to that.
 
 | Metric | Value |
 |---|---|
-| mAP@50 | 0.9596 |
+| mAP@50 | 0.960 |
 | mAP@50-95 | 0.7700 |
 | Precision | 0.9336 |
 | Recall | 0.9017 |

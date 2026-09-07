@@ -2,7 +2,7 @@
 
 ## Bill of materials
 
-Total build cost: approximately **RM 1,100 (~USD 250)**.
+Total build cost: approximately **RM 1,100 (~USD 250)** excluding the raspberry pi because that price differs on which model is used.
 
 | Subsystem | Parts |
 |---|---|
